@@ -1,13 +1,13 @@
-# curso-javascript
--- Introdução JavaScript (10 aulas) --
-* Introdução
-* Configurando Ambiente
-* Variáveis e dados
-* Operações matemáticas
-* Funções
-* Condicionais
-* Operadores Lógicos
-* Condição ternária
-* Estruturas de repetição
-* Intervalo e timeout
-* Desafio
+# Javascript-course
+- JavaScript Introduction (10 lessons) -
+* Introduction
+* Setting Environment
+* Variables and data
+* Math operations
+* Functions
+* Conditionals
+* Logical Operators
+* Ternary condition
+* Repetition Structures
+* Interval and timeout
+* Challenge

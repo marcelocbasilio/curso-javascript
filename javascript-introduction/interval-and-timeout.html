@@ -4,18 +4,17 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta http-equiv="X-UA-Compatible" content="ie=edge">
-	<title>Curso JavaScript</title>
+	<title>Javascript course</title>
 </head>
 <body>
   
 	<script>
-		var x = 10, y = 5, z = 10;
-		var resultado = x + y;
-		z += 3; // mesma coisa que -> z = z + 3;
+		function displaysSomething() {
+			console.log("Hello World!");
+		}
 
-		console.log(x, y); // 10 5
-		console.log(resultado); // 15
-		console.log(z); //13
+		setTimeout(displaysSomething, 5000);
+		//setInterval(displaysSomething, 1000);
 	</script>
 </body>
 </html>

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>Javascript course</title>
+</head>
+<body>
+  
+	<script>
+		function returnsSex(sex) {
+			if (sex === 'M') {
+				return "Male";
+			} else if (sex === 'F') {
+				return "Feminine";
+			} else {
+				return "Other";
+			}
+		}
+
+		function returnsSexSw(sex) {
+			switch (sex) {
+				case 'M':
+					return "Male";
+				case 'F':
+					return "Feminine";
+				default:
+					return "Other";
+			}
+		}
+
+		var result = returnsSex('M');
+		var resultSw = returnsSexSw('F');
+		console.log(result);
+		console.log(resultSw);
+	</script>
+</body>
+</html>

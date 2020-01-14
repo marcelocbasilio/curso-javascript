@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>Javascript course</title>
+</head>
+<body>
+  
+	<script>
+		function addressing() {
+			var address = {
+				public_place: "Rua dos Pinheiros",
+				number: 1293,
+				neighborhood: "Centro",
+				city: "São Paulo",
+				fu: "SP"
+			};
+			var message = `O usuário mora em ${address.city} / ${address.fu}, no bairro ${address.neighborhood}, na rua "${address.public_place}" com n° ${address.number}.`;
+			
+			return message;
+		}
+
+		console.log(addressing());
+	</script>
+</body>
+</html>

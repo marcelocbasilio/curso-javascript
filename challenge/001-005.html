@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>Javascript course</title>
+</head>
+<body>
+  
+	<script>
+		function showMessage(users) {
+			for (let value of users) {
+				var message = `O ${value.name} possui as habilidades: ${value.skills.join(', ')}`;
+				console.log(message);
+			}
+		}
+
+		var users = [
+			{
+				name: "Diego",
+				skills: ["Javascript", "ReactJS", "Redux"]
+			},
+			{
+				name: "Gabriel",
+				skills: ["VueJS", "Ruby on Rails", "Elixir"]
+			}
+		];
+
+		showMessage(users);
+	</script>
+</body>
+</html>

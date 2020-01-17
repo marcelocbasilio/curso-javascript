@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>Javascript course</title>
+</head>
+<body>
+	<div id="app">
+    <button onclick="squareRed();">Click me</button>
+		<div class="box"></div>
+	</div>
+  
+	<script>
+    function squareRed() {
+      var boxElement = document.querySelector('.box');
+
+      boxElement.style.width = '100px';
+      boxElement.style.height = '100px';
+      boxElement.style.backgroundColor = '#f00';
+      boxElement.style.margin = '10px';
+    }
+		
+	</script>
+</body>
+</html>

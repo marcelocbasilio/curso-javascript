@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>Javascript course</title>
+</head>
+<body>
+	<div id="app">
+		<input type="text" name="name" id="name" class="name">
+		<button class="button">Add</button>
+	</div>
+  
+	<script>
+		//var inputElement = document.getElementById("name");
+		//var inputElement = document.getElementsByTagName("input")[0];
+		//var inputElement = document.getElementsByClassName("name")[0];
+		//var inputElement = document.querySelector("body div#app input");
+		var inputElement = document.querySelector("input[name=name]");
+		var btnElement = document.querySelector("button.button");
+
+		btnElement.onclick = function() {
+			var text = inputElement.value;
+			alert(text);
+		}
+	</script>
+</body>
+</html>
